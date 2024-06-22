@@ -1,16 +1,14 @@
-# package
+# Github Contribution Grid in Flutter as a Widget
 
-A new Flutter project.
+Project for fun rather than an actual widget.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+The project might not be ready so far, but this README file will be updated according to the level of this widget
 
-A few resources to get you started if this is your first Flutter project:
+### at the moment :
+the widget can take a List of Lists asd input and those also share data as Maps (Dictionaries).
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+the widget will display the data in a row of pillars each pillar is a combination of 7 small boxes stacked on top of each other.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+the box itself is dynamically set to have a system of colors based on the percentage calculation, in my example it's going to be a calculation of the input data that got a max value of 10 for each box which will make the box full of color.
